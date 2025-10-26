@@ -1,6 +1,6 @@
 State (Activity),Number of Samples,Sensitivity,Specificity
-standing,30,0.26666666666666666,0.9117647058823529
-walking,31,0.8064516129032258,0.7821782178217822
-jumping,33,0.9090909090909091,1.0
-still,38,1.0,1.0
-Overall,,,0.7651515151515151
+standing,45,1.0,0.0
+walking,47,0.0,1.0
+jumping,35,0.0,1.0
+still,48,0.0,1.0
+Overall,,,0.2571428571428571
