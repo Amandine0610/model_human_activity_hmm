@@ -13,11 +13,10 @@ This project implements a Hidden Markov Model (HMM) to classify human activities
 
 ## Project Structure
 ```
-├── data/             # Raw and preprocessed sensor data
-├── src/              # Code for preprocessing, HMM training, and evaluation
-├── figures/          # Plots: transition matrix, emission means, confusion matrix
-├── README.md         # Project overview and instructions
-└── report.pdf        # Final report with results and discussion
+├── data/             
+├── notebooks/                     
+├── README.md         
+└── report.pdf        
 ```
 
 ## Installation
