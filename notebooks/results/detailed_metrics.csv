@@ -1,2 +1,0 @@
-overall_accuracy,mean_log_probability,standing_precision,standing_recall,standing_f1,walking_precision,walking_recall,walking_f1,jumping_precision,jumping_recall,jumping_f1,still_precision,still_recall,still_f1
-0.2571428571428571,-1.1396621090112495,0.4838709677419355,1.0,0.6521739130434783,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0

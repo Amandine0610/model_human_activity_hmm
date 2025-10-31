@@ -1,0 +1,32 @@
+======================================================================
+HMM ACTIVITY RECOGNITION - MODEL SUMMARY
+======================================================================
+
+MODEL CONFIGURATION:
+  Number of states: 4
+  Activities: ['standing', 'walking', 'jumping', 'still']
+  Number of features: 12
+  Covariance type: diag
+
+TRAINING DATA:
+  Training samples: 38
+  Training windows: 143
+  Sampling rate: 99.6 Hz
+  Window size: 3.0 seconds
+  Window overlap: 50%
+
+TEST SET PERFORMANCE:
+  Overall Accuracy: 0.733
+  Standing     - Precision: 0.000, Recall: 0.000, F1: 0.000
+  Walking      - Precision: 1.000, Recall: 1.000, F1: 1.000
+  Jumping      - Precision: 1.000, Recall: 1.000, F1: 1.000
+  Still        - Precision: 0.500, Recall: 1.000, F1: 0.667
+
+UNSEEN DATA PERFORMANCE:
+  Overall Accuracy: 0.000
+  Standing     - Precision: 0.000, Recall: 0.000, F1: 0.000
+  Walking      - Precision: 0.000, Recall: 0.000, F1: 0.000
+  Jumping      - Precision: 0.000, Recall: 0.000, F1: 0.000
+  Still        - Precision: 0.000, Recall: 0.000, F1: 0.000
+
+======================================================================

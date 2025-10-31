@@ -1,0 +1,6 @@
+State (Activity),Number of Samples,Sensitivity,Specificity
+standing,0,0.0,0.0
+walking,2,1.0,1.0
+jumping,2,1.0,1.0
+still,0,1.0,1.0
+Overall,4,0.7333333333333333,0.7333333333333333
