@@ -6,7 +6,7 @@ October 31, 2025
 
 ---
 
-## 📋 Project Overview
+## Project Overview
 
 This project implements a **Hidden Markov Model (HMM)** for human activity recognition using smartphone accelerometer and gyroscope sensors. The system classifies four activities—**standing, walking, jumping, and still**—with applications in elderly care monitoring, fall detection, and personalized health tracking.
 
@@ -22,7 +22,7 @@ This project implements a **Hidden Markov Model (HMM)** for human activity recog
 
 ---
 
-## 🗂️ Repository Structure
+## Repository Structure
 
 ```
 hmm-activity-recognition/
@@ -71,7 +71,7 @@ hmm-activity-recognition/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -134,7 +134,7 @@ with open('results/feature_scaler.pkl', 'rb') as f:
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 ### Data Collection Details
 
@@ -164,7 +164,7 @@ Each sample subfolder contains:
 
 ---
 
-## 🔧 Methodology
+## Methodology
 
 ### 1. Preprocessing
 - **Windowing:** 3-second sliding windows with 50% overlap (188 windows total)
@@ -213,7 +213,7 @@ Each sample subfolder contains:
 
 ---
 
-## 📈 Results
+## Results
 
 ### Test Set Performance (45 windows)
 
@@ -226,9 +226,9 @@ Each sample subfolder contains:
 | **Overall** | **0.733** | **0.956** | **0.733** |
 
 ### Key Findings
-✅ **Perfect classification** for walking and jumping (F1=1.00)  
-⚠️ **Standing-still confusion:** 0% standing recall (all misclassified as still)  
-❌ **Generalization gap:** 73.3% (test) → 38.9% (unseen) = -34.4% drop
+**Perfect classification** for walking and jumping (F1=1.00)  
+**Standing-still confusion:** 0% standing recall (all misclassified as still)  
+**Generalization gap:** 73.3% (test) → 38.9% (unseen) = -34.4% drop
 
 ### Most Discriminative Features
 1. `acc_z_std` (22.6): Vertical acceleration variability
@@ -238,7 +238,7 @@ Each sample subfolder contains:
 
 ---
 
-## 🖼️ Visualizations
+## Visualizations
 
 ### Transition Matrix
 ![Transition Matrix](obtained_images/transition_matrix.png)
@@ -256,7 +256,7 @@ Perfect classification for dynamic activities, confusion for static ones.
 
 ---
 
-## 💻 Usage Examples
+## Usage Examples
 
 ### 1. Load and Use Trained Model
 
@@ -326,7 +326,7 @@ plt.show()
 
 ---
 
-## 📝 Dependencies
+## Dependencies
 
 ```
 numpy>=1.21.0
@@ -345,7 +345,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🤝 Team Contributions
+## Team Contributions
 
 | Team Member | Contribution | Percentage |
 |-------------|-------------|------------|
@@ -356,7 +356,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📚 Report
+## Report
 
 The complete project report (5 pages) is available at:
 - **PDF:** `HMM_Report_Group2.pdf`
@@ -369,19 +369,19 @@ The complete project report (5 pages) is available at:
 
 ---
 
-## 🔍 Key Insights
+## Key Insights
 
 ### What Works Well
-✅ Dynamic activities (walking, jumping) achieve perfect classification  
-✅ HMM captures realistic temporal dependencies (high self-transitions)  
-✅ Interpretable parameters enable explainable predictions  
-✅ Feature engineering effectively separates activity classes
+Dynamic activities (walking, jumping) achieve perfect classification  
+HMM captures realistic temporal dependencies (high self-transitions)  
+Interpretable parameters enable explainable predictions  
+Feature engineering effectively separates activity classes
 
 ### Current Limitations
-⚠️ Standing-still confusion (0% standing recall)  
-⚠️ Poor generalization to unseen data (38.9% accuracy)  
-⚠️ Small dataset (50 samples) limits robustness  
-⚠️ Phone placement variations introduce bias
+Standing-still confusion (0% standing recall)  
+Poor generalization to unseen data (38.9% accuracy)  
+Small dataset (50 samples) limits robustness  
+Phone placement variations introduce bias
 
 ### Future Improvements
 1. **Data:** Collect 200+ samples across 10+ participants
@@ -392,7 +392,7 @@ The complete project report (5 pages) is available at:
 
 ---
 
-## 🎯 Reproducibility
+## Reproducibility
 
 To reproduce all results:
 
