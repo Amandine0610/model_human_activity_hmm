@@ -11,11 +11,11 @@ October 31, 2025
 This project implements a **Hidden Markov Model (HMM)** for human activity recognition using smartphone accelerometer and gyroscope sensors. The system classifies four activities—**standing, walking, jumping, and still**—with applications in elderly care monitoring, fall detection, and personalized health tracking.
 
 ### Key Features
-- ✅ Complete HMM implementation from scratch (Baum-Welch training, Viterbi decoding)
-- ✅ 12-dimensional feature extraction (time-domain, frequency-domain, correlations)
-- ✅ Real sensor data from iPhone X (99.6 Hz sampling rate)
-- ✅ 73.3% test accuracy on dynamic activities
-- ✅ Interpretable transition and emission parameters for explainable predictions
+- Complete HMM implementation from scratch (Baum-Welch training, Viterbi decoding)
+- 12-dimensional feature extraction (time-domain, frequency-domain, correlations)
+- Real sensor data from iPhone X (99.6 Hz sampling rate)
+- 73.3% test accuracy on dynamic activities
+- Interpretable transition and emission parameters for explainable predictions
 
 ### Use Case
 **Personalized health monitoring in elderly care facilities** through non-intrusive activity recognition, enabling caregivers to identify fall risks, monitor mobility patterns, and detect behavioral anomalies while respecting patient privacy.
